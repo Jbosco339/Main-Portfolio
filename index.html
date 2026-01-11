@@ -3,42 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Benjamin Adakole</title>
+    <title>Benjamin_Adakole</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/newPortfolio.css">
+    <link rel="stylesheet" href="css/mediaquerry.css">
+    <link rel="shortcut icon" href="img/avatarNew.png" type="image/x-icon">
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
                     <div class="container">
-                    <a class="navbar-brand fw-bold" href="#" >Benjamin Adakole</a>
+                    <a class="navbar-brand fw-bold Benjaminlogo" href="index.html" >Benjamin Adakole</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div  class="collapse navbar-collapse"
+                         id="navbarSupportedContent"
+                         tabindex="-1">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="#">Home</a>
+                            <a class="nav-link navicon" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#aboutme">About</a>
+                            <a class="nav-link navicon" href="#aboutme">About</a>
                         </li>
                         
                         <li class="nav-item">
-                            <a class="nav-link " href="#techStack">Skills</a>
+                            <a class="nav-link navicon" href="#techStack">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="#projects">Projects</a>
+                            <a class="nav-link navicon" href="#projects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="#contact">Contacts</a>
+                            <a class="nav-link navicon" href="#contact">Contacts</a>
                         </li>
                         </ul>
 
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         
                         <li class="nav-item">
-                        <a class="nav-link ResumeL" href="#">Resume</a>
+                        <a class="nav-link ResumeL" href="file/Ben Resume.pdf" download="Benjamin Adakole Resume" data-aos="fade-up" data-aos-delay="400" data-aos-duration="700">Resume
+                            <img src="img/download.png" id="download2" alt="">
+                        </a>
+                        
                         </li>
                     </ul>
                         
@@ -48,8 +60,8 @@
      </header>
      <main class="sec2">
         <div id="stickysocial_container">
-            <a href="">
-            <img src="img/whatsapp2.jpeg" id="stickysocial" class=" foterImg1" alt="">
+            <a href="https://wa.me/2348067030126" target="_blank">
+            <img src="img/whatsapp-logo.png" id="stickysocial" class=" foterImg1" alt="">
         </a>
         </div>
         <div id="ball"></div>
@@ -58,81 +70,82 @@
                 <div class="row sec2">
                     <div class="col-lg  p-5 d-flex align-items-center justify-content-center ">
                         <div >
-                            <h3>Hi! my name is,</h3>
-                        <h3 id="my_name">Benjamin</h3>
-                        <p class="fs-4">
-                             I'm a <span class=" frontend">Frontend</span> Web Developer.I create Exciting Stuff on the Internet.
+                            <h3 id="hi_intro" data-aos="fade-up" data-aos-duration="700">Hi! my name is,</h3>
+                        <h3 id="my_name" data-aos="fade-up" data-aos-delay="200" data-aos-duration="700">Benjamin</h3>
+                        <p class=" about_me fs-4" id="typeText" data-aos="fade-up" data-aos-delay="100" data-aos-duration="700"></p>
+                        <p class="about_me subp_tag " data-aos="fade-up" data-aos-delay="300" data-aos-duration="700">
+                           Creating seamless digital experience one line of code at a time. Focused on clean design and interactive interfaces. Driven to learn, build, and innovate constantly.
                         </p>
                         </div>
                     </div>
-                    <div class=" aiimage col-lg  ">
+                    <div class=" aiimage col-lg" data-aos="fade-left" data-aos-duration="800">
                         <img src="img/suit dark.PNG" class="img-fluid" alt=""><br><br>
                     </div>
                 </div>
             </article>
         </section>
         <section class=" sec2 container " id="aboutme">
-            <article class="mx-5 sec2">
+            <article class=" sec2">
                 <div class="">
-                    <h3 class="  d-flex align-items-center justify-content-center" >About Me</h3>
-                    <p class="px-5 fs-4">
+                    <h3 class=" about_me d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="700" >About Me</h3>
+                    <p class="about_me fs-4" data-aos="fade-up" data-aos-delay="100">
                         Hello! I'm Benjamin, a driven Full Stack Developer with a strong foundation in computer science and a knack for crafting efficient, user-centric applications. My journey into tech is fueled by a desire to learn, innovate, and contribute to projects that make a difference. I thrive in collaborative environments and am always excited to tackle new challenges.
                     </p>
                 </div>
             </article>
         </section>
-        <section class="sec2" id="techStack">
-            <article class="sec2">
+        <section class="sec2 container" id="techStack">
+            <article class="art2 sec2">
                 <div class="sec2 row container techStackDiv">
-                    <div class="">
-                        <h1 class="d-flex align-items-center justify-content-center">Tech Stack</h1><hr>
-                    <h3>Core Technologies</h3>
+                    <div class=" sec2_innerdiv">
+                        <h1 class="d-flex align-items-center justify-content-center" data-aos="fade-up" >Tech Stack</h1><hr>
+                    <h3 data-aos="fade-up" data-aos-delay="100">Core Technologies</h3>
                     <div class="d-flex">
                         <div class="m-3 p-2">
-                            <img src="img/java-script.png" class="img-fluid small_img"  alt="">
-                            <h6>JavaScript</h6>
+                            <img src="img/java-script.png" class="img-fluid small_img"  alt="" data-aos="fade-up" data-aos-delay="0">
+                            <h6 data-aos="fade-up" data-aos-delay="0">JavaScript</h6>
                         </div>
                         <div class="m-3 p-2">
-                            <img src="img/css-3.png" class="img-fluid small_img"  alt="">
-                            <h6>CSS</h6>
+                            <img src="img/css-3.png" class="img-fluid small_img"  alt="" data-aos="fade-up" data-aos-delay="0">
+                            <h6 data-aos="fade-up" data-aos-delay="0">CSS</h6>
                         </div>
                         <div class="m-3 p-2">
-                            <img src="img/Html.png" class="img-fluid small_img"  alt="">
-                            <h6>HTML</h6>
+                            <img src="img/html-5 small.png" class="img-fluid small_img"  alt="" data-aos="fade-up" data-aos-delay="0">
+                            <h6 data-aos="fade-up" data-aos-delay="0">HTML</h6>
                         </div> 
                     </div>
-                    <h3>Frameworks & Libraries</h3>
+                    <h3 data-aos="fade-up" data-aos-delay="200">Frameworks & Libraries</h3>
                     <div class="d-flex">
                         
                         <div class="m-3 p-2">
-                            <img src="img/library.png" class="img-fluid small_img"  alt="">
-                            <h6>React JS</h6>
+                            <img src="img/library.png" class="img-fluid small_img"  alt="" data-aos="fade-up" data-aos-delay="100">
+                            <h6 data-aos="fade-up" data-aos-delay="100">React JS</h6>
                         </div>
                          <div class="m-3 p-2">
-                            <img src="img/Html.png" class="img-fluid small_img"  alt="">
-                            <h6>Bootstrap</h6>
+                            <img src="img/bootstrap.png" class="img-fluid small_img"  alt="" data-aos="fade-up" data-aos-delay="100">
+                            <h6 data-aos="fade-up" data-aos-delay="100">Bootstrap</h6>
                         </div>
                     </div>
                      </div>
-                     <h3>Tools and Platforms</h3>
+                     <h3 data-aos="fade-up" data-aos-delay="300">Tools and Platforms</h3>
                     <div class="d-flex">
                         
                         <div class="m-3 p-2">
-                            <img src="img/git.png" class="img-fluid small_img"  alt="">
-                            <h6>Git & GitHub</h6>
+                            <img src="img/git.png" class="img-fluid small_img"  alt="" data-aos="fade-up" data-aos-delay="200">
+                            <h6 data-aos="fade-up" data-aos-delay="200">Git & GitHub</h6>
                         </div>
                         <div class="m-3 p-2">
-                            <img src="img/plant1.png" class="img-fluid small_img"  alt="">
-                            <h6>VS Code</h6>
+                            <img src="img/vs code.png" class="img-fluid small_img"  alt="" data-aos="fade-up" data-aos-delay="200">
+                            <h6 data-aos="fade-up" data-aos-delay="200">VS Code</h6>
                         </div>
 
                         <div class="m-3 p-2">
-                            <img src="img/git.png" class="img-fluid small_img"  alt="">
-                            <h6>Chrome DevTools</h6>
+                            <img src="img/chromedevtools.jpg" id="devtools" class="img-fluid small_img"  alt="" data-aos="fade-up" data-aos-delay="200">
+                            <h6 data-aos="fade-up" data-aos-delay="200">Chrome DevTools</h6>
                         </div>
                         <div class="m-3 p-2">
-                            <img src="img/plant1.png" class="img-fluid small_img"  alt="">
-                            <h6>Netlify</h6>
+                            <img src="img/netlify.png" class="img-fluid small_img"  alt="" data-aos="fade-up" data-aos-delay="200">
+                            <h6 data-aos="fade-up" data-aos-delay="200">Netlify</h6>
                         </div>
                     </div>
                 </div>
@@ -142,29 +155,29 @@
         <section class="" id="projects">
             <article>
                 <div>
-                    <h2 class="d-flex align-items-center justify-content-center p-4">My projects</h2>
-                    <div class="row g-3 d-flex align-items-center justify-content-center">
-                        <div class="col-15 col-md-3 bg-success m-2">
+                    <h2 class="d-flex align-items-center justify-content-center p-4" data-aos="fade-up" data-aos-duration="700">My projects</h2>
+                    <div class="row g-3 d-flex align-items-center justify-content-center" >
+                        <div class="col-15 col-md-3 bg-success m-2" data-aos="fade-up" data-aos-delay="0" data-aos-duration="800">
+                            <h2>Form to Submit on whatsapp </h2>
+                            <img src="img/img 1.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-15 col-md-3 bg-success m-2" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800" id="furniture1">
+                            <h2>Simple Calculator for e - Commerce </h2>
+                            <img src="img/img 2.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-15 col-md-3 bg-success m-2" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
+                            <h2>Profile card with React JS </h2>
+                            <img src="img/img 3.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-15 col-md-3 bg-success m-2" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
+                            <h2>A Portfolio Page </h2>
+                            <img src="img/farmportfolio.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-15 col-md-3 bg-success m-2" data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
                             <h2>Amachiks Farms </h2>
                             <img src="img/work1.png" class="img-fluid" alt="">
                         </div>
-                        <div class="col-15 col-md-3 bg-success m-2">
-                            <h2>Amachiks Farms </h2>
-                            <img src="img/work1.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-15 col-md-3 bg-success m-2">
-                            <h2>Amachiks Farms </h2>
-                            <img src="img/work1.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-15 col-md-3 bg-success m-2">
-                            <h2>Amachiks Farms </h2>
-                            <img src="img/work1.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-15 col-md-3 bg-success m-2">
-                            <h2>Amachiks Farms </h2>
-                            <img src="img/work1.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-15 col-md-3 bg-success m-2">
+                        <div class="col-15 col-md-3 bg-success m-2" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800">
                             <h2>Amachiks Farms </h2>
                             <img src="img/work1.png" class="img-fluid" alt="">
                         </div>
@@ -176,28 +189,29 @@
             <article>
                 <div class="d-flex align-items-center justify-content-center">
                     <div>
-                        <h2 class="d-flex align-items-center justify-content-center">Get In Touch</h2>
-                            <p class="paragraph2  fs-5">
+                        <h2 class="d-flex align-items-center justify-content-center about_me" data-aos="fade-up">Get In Touch</h2>
+                            <p class="about_me paragraph2  fs-5" data-aos="fade-up" data-aos-delay="100">
                             I'm currently open to new opportunities and collaborations. Whether you have a project in mind, a question, or just want to say hi, my inbox is always open. I'll try my best to get back to you!
                         </p>                      
                         <div class="footeri container  text-center rounded">
                             
                         <div class="d-flex align-items-center justify-content-center">
-                            <a href="">
+                            
                         </div>
+                        <a href="https://github.com/Jbosco339" target="_blank" data-aos="fade-up" data-aos-delay="100">
                                <div class="pt-3">
-                                 <img src="img/git.png" class=" foterImg" alt="" >
+                                 <img src="img/git.png" class=" foterImg"  alt="" >
                             </a>
-                            <a href="">
+                            <a href="" data-aos="fade-up" data-aos-delay="200">
                                 <img src="img/linkedin (1).png" class="mx-5 foterImg" alt="">
                             </a>
-                            <a href="">
+                            <a href="https://wa.me/2348067030126" target="_blank" data-aos="fade-up" data-aos-delay="300">
                                 <img src="img/whatsapp.png" class=" foterImg" alt="">
                             </a>
-                            <a href="">
+                            <a href="https://facebook.com/benjamin.amanyi.1" target="_blank" data-aos="fade-up" data-aos-delay="400">
                                 <img src="img/facebook.png" class="mx-5 foterImg" alt="">
                             </a>
-                            <a href="">
+                            <a href="https://x.com/benjaminkhole?s=11" target="_blank" data-aos="fade-up" data-aos-delay="500">
                                 <img src="img/twitter.png" class=" foterImg" alt="">
                             </a>
                                </div>
@@ -207,12 +221,23 @@
             </article>
             <article class=" ">
                 <div>
-                <p class="pt-3 mb-0 d-flex align-items-center justify-content-center">Designed & Built by Benjamin Adakole</p>
-                <p class="mb-0 float-left">© 2026 Benjamin Adakole. All rights reserved.</p>
+                <p class="pt-3 mb-0 d-flex align-items-center justify-content-center about_me">Designed & Built by Benjamin Adakole</p>
+                <p class="mb-0 float-left about_me">© 2026 Benjamin Adakole. All rights reserved.</p>
                 </div>
             </article>
         </footer>
      </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+  AOS.init({
+    once:true,
+    duration:700,
+    easing:'ease-out-cubic',
+    offset:120
+  });
+</script>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/newPortfolio.js"></script>
