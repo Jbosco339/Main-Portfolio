@@ -22,8 +22,8 @@ animated();
 // AUTO WRITEUP BEGINS HERE
 
 const texts = [
-  "Turning ideas into interactive designs.",
-  "Focused on growth, impact, and clean code."
+  "I love turning ideas into interactive designs.",
+  " I'm focused on growth, impact, and clean code."
 ];
 
 const speeds = 70;
