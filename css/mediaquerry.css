@@ -4,7 +4,6 @@
 }
 /* Nest Hub */
 @media screen and (max-width:1024px) {
-    
 
 }
 /* Surface Pro 7 */
@@ -271,7 +270,7 @@
         font-size: 15px;
     }
      .paragraph2{
-        font-size: 15px;
+        font-size: 15 px;
     }
     .footerWriteup{
         font-size: 10px;

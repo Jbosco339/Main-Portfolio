@@ -53,10 +53,7 @@ a{
 h6{
     font-weight:normal;
 }
-.frontend{
-    font-size: 38px;
-    color: green;
-}
+
 .footeri{
     background-color: rgb(127, 121, 121);
 }
@@ -76,9 +73,6 @@ h6{
     font-size: 20px;
     background-color: #14b8a6;
     color: #0f172a;
-}
-.second_div{
-    margin-top: 20%;
 }
 
 #stickysocial{
@@ -143,9 +137,7 @@ h6{
     line-height: 1.7;
     padding-top: 20px;
 }
-.nav_icon{
-    color: red;
-}
+
 .navicon:hover{
     background-color: #14b8a6;
 }
