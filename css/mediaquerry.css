@@ -177,15 +177,23 @@
 /* For iphone X */
 @media screen and (max-width:375px) {
     .about_me{
-        font-size: 50px;
+        font-size: 10px;
     }
     .sec2  {
         max-width: 1000px;
     }
     .paragraph2{
          max-width: 1000px;
+         font-size: 15 px;
+    }
+    .footerWriteup{
+        font-size: 10px;
+    }
+    #about_me_Heading{
+        font-size: 20px;
     }
 }
+
 /* For Samsung Galaxy S8+ */
 @media screen and (max-width:360px) {
     .about_me{
@@ -265,21 +273,5 @@
     }
 }
 
-@media screen and (max-width:375px){
-    .subp_tag{
-        font-size: 15px;
-    }
-     .paragraph2{
-        font-size: 15 px;
-    }
-    .footerWriteup{
-        font-size: 10px;
-    }
-    #about_me_Heading{
-        font-size: 20px;
-    }
-    #about_me2{
-        font-size: 10px;
-    }
-}
+
 
